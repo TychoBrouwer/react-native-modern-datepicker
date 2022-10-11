@@ -1,18 +1,15 @@
 {
-  "name": "react-native-modern-datepicker",
+  "name": "tbrouwer-react-native-modern-datepicker",
   "version": "1.0.0",
   "description": "A customizable calendar and month picker for React Native",
   "main": "src/index.js",
-  "scripts": {
-    "playground": "cd playground && react-native start"
-  },
   "files": [
     "src"
   ],
   "author": "Tycho Brouwer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TychoBrouwer/react-native-modern-datepicker"
+    "url": "git+https://github.com/TychoBrouwer/react-native-modern-datepicker.git"
   },
   "bugs": {
     "url": "https://github.com/TychoBrouwer/react-native-modern-datepicker/issues"
@@ -43,5 +40,6 @@
     "@babel/preset-react": "^7.18.6",
     "eslint": "^8.23.1",
     "eslint-config-airbnb": "^19.0.4"
-  }
+  },
+  "homepage": "https://github.com/TychoBrouwer/react-native-modern-datepicker#readme"
 }
