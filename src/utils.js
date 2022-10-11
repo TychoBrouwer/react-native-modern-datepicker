@@ -162,8 +162,9 @@ class Utils {
     const { minimumDate, maximumDate } = this.data;
 
     const date = new Date(time);
-    const currentMonthDays = this.numberOfDaysInMonth(date).getDate();
-    const dayOfWeek = date.getDay();
+    const firstDayOfMonth = new Date(date.getFullYear(), date.getMonth(), 1);
+    const currentMonthDays = this.numberOfDaysInMonth(firstDayOfMonth).getDate();
+    const dayOfWeek = firstDayOfMonth.getDay();
 
     return [
       ...new Array(dayOfWeek),

@@ -5,8 +5,8 @@ import React, {
 import { View, StyleSheet } from 'react-native';
 import PropTypes from 'prop-types';
 
-import Calendar from './components/Calendar';
-import SelectMonth from './components/SelectMonth';
+import Calendar from './components/calendar';
+import SelectMonth from './components/select-month';
 import ContextProvider, { useCalendar } from './context-provider';
 
 import Utils from './utils';

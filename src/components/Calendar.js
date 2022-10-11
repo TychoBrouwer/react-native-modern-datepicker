@@ -3,8 +3,8 @@ import {
   View, StyleSheet, Text, Animated,
 } from 'react-native';
 
-import Header from './Header';
-import Days from './Days';
+import Header from './header';
+import Days from './days';
 
 import { useCalendar } from '../context-provider';
 
