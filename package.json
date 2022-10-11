@@ -12,10 +12,10 @@
   "author": "Tycho Brouwer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HosseinShabani/react-native-modern-datepicker.git"
+    "url": "https://github.com/TychoBrouwer/react-native-modern-datepicker"
   },
   "bugs": {
-    "url": "https://github.com/HosseinShabani/react-native-modern-datepicker/issues"
+    "url": "https://github.com/TychoBrouwer/react-native-modern-datepicker/issues"
   },
   "license": "MIT",
   "keywords": [
