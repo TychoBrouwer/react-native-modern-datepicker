@@ -1,6 +1,6 @@
 {
   "name": "tbrouwer-react-native-modern-datepicker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A customizable calendar and month picker for React Native",
   "main": "src/index.js",
   "files": [
